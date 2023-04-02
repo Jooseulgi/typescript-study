@@ -18,21 +18,7 @@
     };
   }
 
-  coffeeBeans += 3 * BEANS_GRAM_PER_SHOT;
+  coffeeBeans += 2 * BEANS_GRAM_PER_SHOT;
   const coffee = makeCoffee(2);
   console.log(coffee);
-
-  // class CoffeeMachine {
-  //     constructor(coffee: string) {
-  //       this.coffee = coffee;
-  //     }
-
-  //     makeCoffee(shot: number) {
-  //       return shot * coffee;
-  //     }
-  //   }
-
-  //   const ccff = new CoffeeMachine('akdkdk');
-
-  //   ccff.makeCoffee(3)
 }
