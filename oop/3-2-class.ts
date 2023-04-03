@@ -28,6 +28,5 @@
 
   const maker = new CoffeeMaker(32);
   console.log(maker);
+  console.log(maker.makeCoffee(2));
 }
-
-//   ccff.makeCoffee(3)
